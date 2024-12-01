@@ -1,0 +1,15 @@
+{
+  "name": "receiptswebsite",
+  "version": "1.0.0",
+  "description": "MyExpenseTracker allows you to upload your receipts and it will keep track of how much you spend on each.",
+  "main": "aws-exports.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.10.0"
+  }
+}
