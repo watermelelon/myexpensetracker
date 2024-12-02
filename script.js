@@ -1,10 +1,8 @@
 import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports'; // Ensure Amplify is configured
+import awsconfig from './aws-exports.js'; // Ensure Amplify is configured
 import { Storage } from '@aws-amplify/storage';
 
 Amplify.configure(awsconfig); // Initialize Amplify
-
-
 
 const fileInput = document.getElementById('fileInput');
 const tableBody = document.querySelector('#expenseTable tbody');
